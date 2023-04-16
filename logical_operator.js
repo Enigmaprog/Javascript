@@ -32,3 +32,5 @@ console.log(hamburger === 3 && cola === 2 || fries === 3 && nuggets); // 2
 let johnReport, alexReport, samReport, mariaReport = 'done';
 
 console.log(johnReport || alexReport || samReport || mariaReport); // done
+
+console.log(NaN || 2 || undefined);
