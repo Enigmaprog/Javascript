@@ -33,3 +33,4 @@ const vehicleBodyWidth = 5000, vehicleBodyLegngth = 4000; // hoyr huwisagch dara
 let COLOR_RED = '#F00';
 
 console.log('string' * 9);
+
