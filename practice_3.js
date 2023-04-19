@@ -9,13 +9,15 @@ const personalMovieDB = {
 }
 
 function start() {
+    numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?', '');
+
     while (numberOfFilms == '' || numberOfFilms == null || isNaN(numberOfFilms)) {
         numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?', '');
     }
     personalMovieDB.count = numberOfFilms;
 }
 
-// start();
+start();
 
 function rememberMyFilms() {
     for (let i = 0; i < 2; i++) {
@@ -46,7 +48,7 @@ function detectPersonallevel() {
     }
 }
 
-// detectPersonallevel();
+detectPersonallevel();
 
 function showMyDB (hidden) {
     if (!hidden) {
@@ -62,4 +64,4 @@ function writeYourGenres() {
     }
 }
 
-// writeYourGenres();
+writeYourGenres();

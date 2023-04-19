@@ -44,3 +44,6 @@ console.log( 25 || null && !3); // 25
 console.log(NaN || null || !3 || undefined || 5); //5
 console.log(NaN || null && !3 && undefined || 5); //5
 console.log( 5 === 5 && 3 > 1 || 5); // true
+console.log(0 || NaN || false || null); // null
+console.log(typeof(NaN)); // number
+console.log(typeof(+'4')); // number
