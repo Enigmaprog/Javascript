@@ -7,7 +7,7 @@ console.log(arr);
 
 const arrObj = {
     a: 'a',
-    1: 'b',
+    b: 'b',
     2: 'c',
     abc: {
         df: [{}, {}],
@@ -15,10 +15,11 @@ const arrObj = {
 
         }
     } 
-}
-const b = 'b';
+} 
+
 // arrObj.b = '1234';
-arrObj[b] = '1234';
+arrObj['b'] = 'huhuhu';
+console.log(arrObj[1]);
 
 console.log(arrObj['b']);
 console.log(arrObj.a);
@@ -33,7 +34,7 @@ console.log(arr[1]);
 //     'Alice': 800
 // }; 
 
-const storeName = 'e-mart';
+const storeName = 'bugatti';
 
 const storeDescription = {
     budget: 10000,

@@ -45,7 +45,7 @@ for (let key in options) {
         console.log(`Свойство ${key} имеет знач ${options[key]}`);
         // counter++;
     }
-    counter++;
+    // counter++;
 }
 
-console.log(counter);
+// console.log(counter);
